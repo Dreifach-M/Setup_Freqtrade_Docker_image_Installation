@@ -5,8 +5,11 @@ First I prefer to make a new directory called `/opt` because we are going to Add
 
 ## _Docker quick start_
 ``` bash
+mkdir opt
+cd opt/
 mkdir ft_userdata
 cd ft_userdata/
+
 # Download the docker-compose file from the repository
 curl https://raw.githubusercontent.com/freqtrade/freqtrade/stable/docker-compose.yml -o docker-compose.yml
 
